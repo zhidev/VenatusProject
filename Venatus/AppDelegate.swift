@@ -23,7 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         //print("test")
-        
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = AppId
+                configuration.clientKey = masterKey
+                configuration.server = serverUrl
+            })
+        )
         // Override point for customization after application launch.
         return true
     }
