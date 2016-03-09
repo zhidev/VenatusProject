@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		401C9644E0312C7973CA7061 /* Pods_Venatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B286B455C632B8369228D17C /* Pods_Venatus.framework */; };
+		916E83571C8FE7F100B33DB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E83561C8FE7F100B33DB7 /* LoginViewController.swift */; };
+		916E83591C8FE7FC00B33DB7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E83581C8FE7FC00B33DB7 /* MainViewController.swift */; };
+		916E835B1C8FE81200B33DB7 /* ViewingProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E835A1C8FE81200B33DB7 /* ViewingProfileViewController.swift */; };
+		916E835D1C8FE83500B33DB7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E835C1C8FE83500B33DB7 /* ProfileViewController.swift */; };
 		918297481C8FCFA700AC4266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918297471C8FCFA700AC4266 /* AppDelegate.swift */; };
-		9182974A1C8FCFA700AC4266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918297491C8FCFA700AC4266 /* ViewController.swift */; };
 		9182974D1C8FCFA700AC4266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9182974B1C8FCFA700AC4266 /* Main.storyboard */; };
 		9182974F1C8FCFA700AC4266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9182974E1C8FCFA700AC4266 /* Assets.xcassets */; };
 		918297521C8FCFA700AC4266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918297501C8FCFA700AC4266 /* LaunchScreen.storyboard */; };
@@ -17,9 +20,12 @@
 
 /* Begin PBXFileReference section */
 		470DE717945F63A3BFE16E79 /* Pods-Venatus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Venatus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Venatus/Pods-Venatus.debug.xcconfig"; sourceTree = "<group>"; };
+		916E83561C8FE7F100B33DB7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		916E83581C8FE7FC00B33DB7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		916E835A1C8FE81200B33DB7 /* ViewingProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewingProfileViewController.swift; sourceTree = "<group>"; };
+		916E835C1C8FE83500B33DB7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		918297441C8FCFA700AC4266 /* Venatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918297471C8FCFA700AC4266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		918297491C8FCFA700AC4266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9182974C1C8FCFA700AC4266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9182974E1C8FCFA700AC4266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		918297511C8FCFA700AC4266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		916E83531C8FE77700B33DB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				916E83561C8FE7F100B33DB7 /* LoginViewController.swift */,
+				916E83581C8FE7FC00B33DB7 /* MainViewController.swift */,
+				916E835A1C8FE81200B33DB7 /* ViewingProfileViewController.swift */,
+				916E835C1C8FE83500B33DB7 /* ProfileViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		916E83551C8FE78F00B33DB7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		9182973B1C8FCFA700AC4266 = {
 			isa = PBXGroup;
 			children = (
@@ -70,8 +94,9 @@
 		918297461C8FCFA700AC4266 /* Venatus */ = {
 			isa = PBXGroup;
 			children = (
+				916E83551C8FE78F00B33DB7 /* Models */,
+				916E83531C8FE77700B33DB7 /* Views */,
 				918297471C8FCFA700AC4266 /* AppDelegate.swift */,
-				918297491C8FCFA700AC4266 /* ViewController.swift */,
 				9182974B1C8FCFA700AC4266 /* Main.storyboard */,
 				9182974E1C8FCFA700AC4266 /* Assets.xcassets */,
 				918297501C8FCFA700AC4266 /* LaunchScreen.storyboard */,
@@ -211,8 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9182974A1C8FCFA700AC4266 /* ViewController.swift in Sources */,
+				916E83571C8FE7F100B33DB7 /* LoginViewController.swift in Sources */,
+				916E835B1C8FE81200B33DB7 /* ViewingProfileViewController.swift in Sources */,
+				916E835D1C8FE83500B33DB7 /* ProfileViewController.swift in Sources */,
 				918297481C8FCFA700AC4266 /* AppDelegate.swift in Sources */,
+				916E83591C8FE7FC00B33DB7 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
