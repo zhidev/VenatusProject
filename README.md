@@ -31,7 +31,9 @@ Required User Stories:
   - [ ] Change various settings and preferences
  - [ ] Users can view other peoples profile and see:
   - [ ] List of games the person expresses interests in (Collection View)
-  - [ ] User information
+  - [ ] User information 
+  - [ ] Clicking on a game will bring up a scroll view of data of the game. Users can choose to hide personal information
+  - 
 
 Optionals:
 - [ ] Incorporating PayPal to allow users to buy company currency (ie, steam fund) (Brian wants this as required)
