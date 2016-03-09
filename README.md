@@ -38,7 +38,7 @@ Optionals:
 Group Project  - ______
 - [ ] UIDesign
 - [ ] HUD Design
-
+- [ ] E-mail registration and confirmation
 
 
 
