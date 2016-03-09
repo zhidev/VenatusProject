@@ -9,9 +9,9 @@
 import UIKit
 
 class Game: NSObject {
-    let gameName: String?
-    let icon: UIImage?
-    let website: NSURL?
+    var gameName: String?
+    var icon: UIImage?
+    var website: NSURL?
     
     var hiddenInformation: Bool?
     var gameHandle: String?

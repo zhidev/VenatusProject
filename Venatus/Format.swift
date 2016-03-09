@@ -8,6 +8,9 @@
 
 import UIKit
 
+
+/* This model is to help reformat different NSObjects such as NSDate, UIImages, and etc. */
+
 class Format: NSObject {
 
     func dateFormat(){
