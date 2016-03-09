@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import Parse
+
+
+let AppId = "Venatus"
+let masterKey = "jdiasogfo8eytr87ygrheuifewog"
+let serverUrl = "http://venatus.herokuapp.com/parse"
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

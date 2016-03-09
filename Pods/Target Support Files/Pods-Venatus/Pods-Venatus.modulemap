@@ -1,0 +1,6 @@
+framework module Pods_Venatus {
+  umbrella header "Pods-Venatus-umbrella.h"
+
+  export *
+  module * { export * }
+}
