@@ -50,4 +50,29 @@ In the current iteration, Parse will only hold user profiles defined by these va
      username: String
      avatar: Image
      games: [Game]
+============================================
+Currently models being used are:
+News
+    var name: String?
+    var date: NSDate?
+    var text: String?
+    var postImage: UIImage?
+    
+    var profile: Profile?
 
+Profile
+    var name: String?
+    var dateOfBirth: NSDate?
+    var username: String?
+    var avatar: UIImage?
+    var games: [Game]?
+    
+Game
+    var gameName: String?
+    var icon: UIImage?
+    var website: NSURL?
+    var hiddenInformation: Bool?
+    var gameHandle: String?
+    var authenticationInfo: AnyObject?
+
+and various dedicated helper files with functions to keep consistency
