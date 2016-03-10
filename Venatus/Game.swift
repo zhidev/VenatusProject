@@ -1,8 +1,8 @@
 //
-//  Games.swift
+//  Game.swift
 //  Venatus
 //
-//  Created by Douglas on 3/8/16.
+//  Created by Douglas on 3/9/16.
 //  Copyright © 2016 Dougli. All rights reserved.
 //
 

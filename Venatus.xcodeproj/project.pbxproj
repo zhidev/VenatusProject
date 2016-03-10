@@ -15,8 +15,8 @@
 		916E835F1C8FEA5300B33DB7 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E835E1C8FEA5300B33DB7 /* Format.swift */; };
 		916E83611C8FEA9A00B33DB7 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E83601C8FEA9A00B33DB7 /* News.swift */; };
 		916E83631C8FEBDC00B33DB7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E83621C8FEBDC00B33DB7 /* Profile.swift */; };
-		916E83651C8FEEB900B33DB7 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916E83641C8FEEB900B33DB7 /* Games.swift */; };
 		917C32BB1C90EB1B00D4027D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917C32BA1C90EB1B00D4027D /* Post.swift */; };
+		917C32BD1C90FDAF00D4027D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917C32BC1C90FDAF00D4027D /* Game.swift */; };
 		918297481C8FCFA700AC4266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918297471C8FCFA700AC4266 /* AppDelegate.swift */; };
 		9182974D1C8FCFA700AC4266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9182974B1C8FCFA700AC4266 /* Main.storyboard */; };
 		9182974F1C8FCFA700AC4266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9182974E1C8FCFA700AC4266 /* Assets.xcassets */; };
@@ -32,8 +32,8 @@
 		916E835E1C8FEA5300B33DB7 /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
 		916E83601C8FEA9A00B33DB7 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		916E83621C8FEBDC00B33DB7 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		916E83641C8FEEB900B33DB7 /* Games.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 		917C32BA1C90EB1B00D4027D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		917C32BC1C90FDAF00D4027D /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		918297441C8FCFA700AC4266 /* Venatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918297471C8FCFA700AC4266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9182974C1C8FCFA700AC4266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 				916E835E1C8FEA5300B33DB7 /* Format.swift */,
 				916E83601C8FEA9A00B33DB7 /* News.swift */,
 				916E83621C8FEBDC00B33DB7 /* Profile.swift */,
-				916E83641C8FEEB900B33DB7 /* Games.swift */,
 				917C32BA1C90EB1B00D4027D /* Post.swift */,
+				917C32BC1C90FDAF00D4027D /* Game.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				916E83571C8FE7F100B33DB7 /* LoginViewController.swift in Sources */,
+				917C32BD1C90FDAF00D4027D /* Game.swift in Sources */,
 				916E83631C8FEBDC00B33DB7 /* Profile.swift in Sources */,
 				916E835B1C8FE81200B33DB7 /* ViewingProfileViewController.swift in Sources */,
-				916E83651C8FEEB900B33DB7 /* Games.swift in Sources */,
 				916E835F1C8FEA5300B33DB7 /* Format.swift in Sources */,
 				916E835D1C8FE83500B33DB7 /* ProfileViewController.swift in Sources */,
 				916E83611C8FEA9A00B33DB7 /* News.swift in Sources */,

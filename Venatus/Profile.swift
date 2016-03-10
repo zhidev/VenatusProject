@@ -9,7 +9,18 @@
 import UIKit
 
 struct Profile{
-    
+    var name: String?
+    var dateOfBirth: NSDate?
+    var username: String?
+    var avatar: UIImage?
     
     var games: [Game]?
+
+    
+    
+    
+    func addGameToProfile(gameToAdd: Game){
+    
+    }
+    
 }
