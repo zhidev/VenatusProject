@@ -53,6 +53,7 @@ In the current iteration, Parse will only hold user profiles defined by these va
 ============================================
 Currently models being used are:
 News
+
     var name: String?
     var date: NSDate?
     var text: String?
@@ -61,6 +62,7 @@ News
     var profile: Profile?
 
 Profile
+
     var name: String?
     var dateOfBirth: NSDate?
     var username: String?
@@ -68,6 +70,7 @@ Profile
     var games: [Game]?
     
 Game
+
     var gameName: String?
     var icon: UIImage?
     var website: NSURL?
