@@ -16,6 +16,8 @@ class Game: NSObject {
     var hiddenInformation: Bool?
     var gameHandle: String?
     
+    var authenticationInfo: AnyObject? // ???
+    
     override init(){
         super.init()
     }
