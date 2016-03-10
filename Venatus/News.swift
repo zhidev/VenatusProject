@@ -16,7 +16,9 @@ struct News {
     
     var profile: Profile?
     
-    
+    func populateNews(){
+        
+    }
     
     
     func setProfileInformation(){
