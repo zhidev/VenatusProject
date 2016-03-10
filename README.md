@@ -43,5 +43,11 @@ Group Project  - ______
 - [ ] E-mail registration and confirmation
 
 
-
+===========================================
+In the current iteration, Parse will only hold user profiles defined by these variables and hold these variable types
+     name: String
+     dateOfBirth: Date
+     username: String
+     avatar: Image
+     games: [Game]
 
