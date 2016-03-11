@@ -23,17 +23,16 @@ Required User Stories:
 - [ ] Users can make posts, with pictures, videos , streams etc.
 - [ ] Supplement data with Twitter API
 - [ ] Settings/Profile View to set users preferences and link various other sources
-- [ ] Connect with Twitch account
-- [ ] Change various settings and preferences
 - [ ] Chat Client
-- [ ] Gaming Events Page
+- [ ] Gaming Meetups
 
 Optionals:
 - [ ] Incorporating PayPal to allow users to buy company cryptocurrency (ie, Ingame Currencies)
 - [ ] Tournament Registration/Brackets
 - [ ] Add more games to the add game function
-- 
-- [ ] Reward system for using app
+- [ ] Forum system 
+- [ ] Settings Page
+- [ ] Reward system for using app/reaching milestones in games
 
 
 
