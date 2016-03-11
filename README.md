@@ -19,9 +19,8 @@ Required User Stories:
 - [ ] User Profile
 - [ ] Standard Social Media Features Implemented.  
 - [ ] User can add games to his profile from Steam & League of Legends
-- [ ] News Feed
+- [ ] News Feed supplemented with Twittter API
 - [ ] Users can make posts, with pictures, videos , streams etc.
-- [ ] Supplement data with Twitter API
 - [ ] Settings/Profile View to set users preferences and link various other sources
 - [ ] Chat Client
 - [ ] Gaming Meetups
