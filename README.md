@@ -12,19 +12,19 @@ User Stories:
 
 Required User Stories:
 - [ ] Creating a Venatus Theme.
- - [ ] Users can login to access the rest of the app
-   - [ ] Registration Page
-   - [ ] User can Logout 
-   - [ ] User can Login using Steam.
- - [ ] User Profile
-   - [ ] Standard Social Media Features Implemented.  
-   - [ ] User can add games to his profile from Steam & League of Legends
- - [ ] News 
-   - [ ] Users can make posts, with pictures, videos , streams etc.
-   - [ ] Supplement data with Twitter API
- - [ ] Settings/Profile View to set users preferences and link various other sources
-   - [ ] Connect with Twitch account
-   - [ ] Change various settings and preferences
+- [ ] Users can login to access the rest of the app
+- [ ] Registration Page
+- [ ] User can Logout 
+- [ ] User can Login using Steam.
+- [ ] User Profile
+- [ ] Standard Social Media Features Implemented.  
+- [ ] User can add games to his profile from Steam & League of Legends
+- [ ] News Feed
+- [ ] Users can make posts, with pictures, videos , streams etc.
+- [ ] Supplement data with Twitter API
+- [ ] Settings/Profile View to set users preferences and link various other sources
+- [ ] Connect with Twitch account
+- [ ] Change various settings and preferences
 - [ ] Chat Client
 - [ ] Gaming Events Page
 
