@@ -100,9 +100,6 @@ Our targeted demographic will be Gamers & people that are interested in potentia
 What will they be using this for?
 They will be using the app for the social media aspects & amenities such as tournament brackets/registration & Locations.
 
-What are the core flows?
-
-
 What are the key functions?
 The key functions of the app are to  give gamers a way to show off there gamer ilfe.
 
